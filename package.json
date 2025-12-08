@@ -1,0 +1,26 @@
+{
+  "name": "top-academy-php-project",
+  "version": "1.0.0",
+  "description": "PHP project for Top Academy 2025\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "db:init": "node scripts/initDb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladStrakhov7/top-academy-php-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VladStrakhov7/top-academy-php-project/issues"
+  },
+  "homepage": "https://github.com/VladStrakhov7/top-academy-php-project#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
